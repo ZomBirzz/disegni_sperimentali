@@ -1,5 +1,6 @@
 rm(list=ls(all=TRUE))
-install.packages("GAD") 
+install.packages("GAD")
+
 library(GAD)
 
 dataset <- read.csv(file.choose(),header=T,sep=",", stringsAsFactors = T)
